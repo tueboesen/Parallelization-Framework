@@ -2,15 +2,21 @@
 # OpenMP parallelization Framework
 ## Introduction
 This is a parallelization framework developed at the HydroGeophysics Group, Aarhus University, Denmark.
+
 The framework is developed in Fortran/OpenMP, and is designed with focus on portability and a wide userbase. 
+
 The framework removes the need for setting global OpenMP directives throughout the !code and instead gathers most of the parallelization calls into a single module. This promotes safer coding practices and should provide at great foundation for any scientific modelling code.
 
 ## What is in this pack
 
 Example.f90          !Is the main program, which contains a small example showing how to use the parallelization framework
+
 Math_routines.f90    !Contains a simple math routine and shows how to use the parallelization framework to set it up in a dynamic way. 
+
 Misc.f90             !Contains a few helper routines needed by the other modules.
+
 Parallelization.f90  !Contains the parallelization framework
+
 Technical_Report.pdf !A technical report which introduces parallelization and explains why and how the parallelization framework was created. Furthermore it contains information about a sparse iterative solver also created by the Hydrogeophysics Group at Aarhus University.
 
 ## How to set it up
