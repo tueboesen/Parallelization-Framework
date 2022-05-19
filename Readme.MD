@@ -21,4 +21,4 @@ Technical_Report.pdf - A technical report which introduces parallelization and e
 
 ## How to set it up
 
-Open either the parallelization solution file or project file, or built your own project by using example.f90 as the main program and the rest as dependencies.
+Open either the parallelization solution file or project file, or build your own project by using example.f90 as the main program and the rest as dependencies.
