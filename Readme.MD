@@ -9,15 +9,15 @@ The framework removes the need for setting global OpenMP directives throughout t
 
 ## What is in this pack
 
-Example.f90          !Is the main program, which contains a small example showing how to use the parallelization framework
+Example.f90          - Is the main program, which contains a small example showing how to use the parallelization framework.
 
-Math_routines.f90    !Contains a simple math routine and shows how to use the parallelization framework to set it up in a dynamic way. 
+Math_routines.f90    - Contains a simple math routine and shows how to use the parallelization framework to set it up in a dynamic way. 
 
-Misc.f90             !Contains a few helper routines needed by the other modules.
+Misc.f90             - Contains a few helper routines needed by the other modules.
 
-Parallelization.f90  !Contains the parallelization framework
+Parallelization.f90  - Contains the parallelization framework
 
-Technical_Report.pdf !A technical report which introduces parallelization and explains why and how the parallelization framework was created. Furthermore it contains information about a sparse iterative solver also created by the Hydrogeophysics Group at Aarhus University.
+Technical_Report.pdf - A technical report which introduces parallelization and explains why and how the parallelization framework was created. Furthermore it contains information about a sparse iterative solver also created by the Hydrogeophysics Group at Aarhus University.
 
 ## How to set it up
 
